@@ -47,3 +47,11 @@
 ### 2. Add person to either blue or red team
 
 - [x] When clicking on either the "Red Team" or "Blue Team" button next to a player listed under "Dodge Ball Players", that person should be removed from the list of "Dodge Ball Players" in the UI. This player should also be removed from the players array and added to the array of the appropriate colored team. This new team member should also have two additional fields attached to it: the color of the team and the appropriate mascot. The UI and console log tests show this is happening.
+
+### 3. Cannot add a person to players list twice
+
+- [x] When clicking on a "Make Player" button next to a person, the person is removed from the "List of People" list and so cant be added as a player twice.
+
+### 4. Cannot add a player to more than one team, once
+
+- [x] When clicking on either the "Red Team" or "Blue Team" button next to a player listed under "Dodge Ball Players", that person is removed from the list of "Dodge Ball Players", so I cannot be added to more than one team, once.
