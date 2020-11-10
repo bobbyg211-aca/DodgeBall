@@ -8,10 +8,34 @@
 4. 20pts - Uses class - This is not a hack job. You should use class to add the new properties you need and extend when you need.
 5. 20pts - Minimum 3 Unit Tests - Use Mocha and Chai to give us at least 3 unit tests that prove a person becomes a player and a player becomes a teammate.
 
-### Set up player class
+## Code Plan
 
-### Allow people to be added to player
+### Set up Player class
 
-### Extend player class with TeamMember
+- variables: NAME, AGE, SKILL
+- methods: N/A
+
+### Allow people to be added to list of players
+
+1. Create new player with Player class
+2. Add new player to players array
+3. Add player to list in the UI
+4. Remove player from people array
+5. Remove player from people list in the UI
+
+### Extend player class with TeamMember class
+
+- variables:
+  - extended: NAME, AGE, SKILL
+  - new: COLOR
+- methods: N/A
 
 ### Allow players to be added to team
+
+1. Create new member with Team Member class
+2. Add new player to either red or blue team array
+3. Add player to list of either red or blue team in the UI
+4. Remove player from players array
+5. Remove player from players list in the UI
+
+## Test Explanations
