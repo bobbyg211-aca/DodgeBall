@@ -27,7 +27,7 @@
 
 - variables:
   - extended: NAME, AGE, SKILL
-  - new: COLOR
+  - new: TEAM, MASCOT
 - methods: N/A
 
 ### Allow players to be added to team

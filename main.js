@@ -68,6 +68,11 @@ class TeamMember extends Player {
   constructor(name, age, skill, team){
     super(name,age,skill);
     this.team = team;
+    if (team === "red") {
+      this.mascot = "Cardinals";
+    } else if (team === "blue") {
+      this.mascot = "Blue Jays";
+    }
   }
 }
 
