@@ -43,3 +43,7 @@
 ### 1. Adding person to list of dodge ball players
 
 - [x] When clicking on a "Make Player" button next to a person, I expect that player to be removed from the "List of People" and added to the "Dodge Ball Players" in the UI. The people array should have that person removed and the players array should have that new person added. The UI and console log tests show this is happening.
+
+### 2. Add person to either blue or red team
+
+- [x] When clicking on either the "Red Team" or "Blue Team" button next to a player listed under "Dodge Ball Players", that person should be removed from the list of "Dodge Ball Players" in the UI. This player should also be removed from the players array and added to the array of the appropriate colored team. This new team member should also have two additional fields attached to it: the color of the team and the appropriate mascot. The UI and console log tests show this is happening.
