@@ -40,6 +40,6 @@
 
 ## Test Explanations
 
-### 1. Adding person to list of dodge ball players [x]
+### 1. Adding person to list of dodge ball players
 
-When clicking on a "Make Player" button next to a person, I expect that player to be removed from the "List of People" and added to the "Dodge Ball Players" in the UI. The people array should have that person removed and the players array should have that new person added. The UI and console log tests show this is happening.
+[x] When clicking on a "Make Player" button next to a person, I expect that player to be removed from the "List of People" and added to the "Dodge Ball Players" in the UI. The people array should have that person removed and the players array should have that new person added. The UI and console log tests show this is happening.
